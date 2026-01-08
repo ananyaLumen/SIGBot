@@ -1,0 +1,12 @@
+[
+  {
+    "chunk_id": 0,
+    "page_number": 1,
+    "text": "SOC 2 Type II Sample Report (For Testing Only) Report Overview This report demonstrates compliance with the AICPA Trust Services Criteria for Security, Availability, and Confidentiality for the period Jan 1, 2025 \u2013 Dec 31, 2025. Scope and Objectives The scope includes the organization\u2019s cloud-based application and supporting infrastructure hosted on AWS. Objectives: Ensure system security against unauthorized access, maintain availability as per SLA, and protect confidentiality of customer data. System Description The system consists of: Web application hosted on AWS EC2, data stored in encrypted RDS instances, and access controlled via IAM policies and MFA. Trust Services Criteria Security: Firewalls, IDS/IPS, MFA implemented. Availability: 99.9% uptime SLA monitored via CloudWatch. Confidentiality: Data encrypted at rest (AES-256) and in transit (TLS 1.2). Control Activities Access Control: Role-based access enforced. Change Management: Changes tracked via Jira and approved before deployment. Incident Response: Documented IR plan with 24/7 monitoring. Testing Procedures and Results Access Control: Sampled 25 user accounts; all had MFA enabled. Change Management: Reviewed 10 change tickets; all followed approval workflow. Incident Response: Verified IR drills conducted quarterly. Auditor\u2019s Opinion"
+  },
+  {
+    "chunk_id": 1,
+    "page_number": 2,
+    "text": "Based on the procedures performed, controls were suitably designed and operated effectively throughout the review period. Summary of Testing Results Control Tested Items Result Access Control 25 user accounts All MFA enabled Change Management 10 change tickets All approved Incident Response Quarterly drills Verified"
+  }
+]
